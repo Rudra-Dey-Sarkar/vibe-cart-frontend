@@ -67,6 +67,7 @@ export default function App() {
     }
   }
 
+  
   async function handleCheckout(details) {
     try {
       const payload = { cartItems: cart.items, name: details.name, email: details.email, userId };
