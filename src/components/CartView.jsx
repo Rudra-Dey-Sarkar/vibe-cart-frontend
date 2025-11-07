@@ -8,7 +8,7 @@ export default function CartView({ cart = { items: [], total: 0 }, onRemove, onU
     }
 
     return (
-        <div>
+        <div style={{border:"2px solid black", padding:"25px", borderRadius:"10px"}}>
             {cart.items.length === 0 ? <div>Your cart is empty</div> :
                 <>
                     <ul className="cart-list">
